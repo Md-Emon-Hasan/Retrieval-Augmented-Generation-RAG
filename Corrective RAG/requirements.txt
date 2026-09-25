@@ -1,0 +1,32 @@
+# Basic RAG (LangChain + LangGraph + FAISS + OpenAI)
+# Python >= 3.10 required
+# Install:  pip install -r requirements.txt
+
+# --- LangChain core stack ---
+langchain-core==1.6.5
+langchain-community==0.4.2
+langchain-openai==1.6.6
+langchain-text-splitters==1.1.2
+
+# --- Graph orchestration ---
+langgraph==1.2.12
+
+# --- Vector store ---
+faiss-cpu==1.15.1
+
+# --- PDF loading (needed by PyPDFLoader) ---
+pypdf==6.19.0
+
+# --- OpenAI client + tokenizer ---
+openai==3.19.2
+tiktoken==0.14.0
+
+# --- Env variables (.env -> OPENAI_API_KEY) ---
+python-dotenv==1.2.3
+
+# --- Notebook runtime ---
+ipykernel==7.3.0
+jupyter==1.1.1
+
+# --- Optional: ASCII/graph visualization of the LangGraph app ---
+# grandalf==0.8
