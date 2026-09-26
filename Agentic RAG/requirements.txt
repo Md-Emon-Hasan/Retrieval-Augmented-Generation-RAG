@@ -1,0 +1,36 @@
+# Agentic RAG with LangGraph + FAISS
+# Python 3.10+ (notebook was built on 3.11)
+# Install:  pip install -r requirements.txt
+
+# --- Orchestration ---
+langgraph
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# --- LLM + web search ---
+langchain-groq
+langchain-tavily
+
+# --- Embeddings (local, free) ---
+langchain-huggingface
+sentence-transformers
+
+# --- Vector store (local) ---
+faiss-cpu
+
+# --- Document loading ---
+beautifulsoup4
+lxml
+
+# --- Structured outputs / typing ---
+pydantic>=2
+typing-extensions
+
+# --- Env vars ---
+python-dotenv
+
+# --- Notebook runtime ---
+jupyter
+ipykernel
