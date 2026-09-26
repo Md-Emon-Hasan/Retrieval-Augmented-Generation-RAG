@@ -1,0 +1,7 @@
+openai
+faiss-cpu
+pypdf
+pydantic
+python-dotenv
+tavily-python
+langchain-tavily
